@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="MediatR" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PetShop.Cadastros.Application\PetShop.Cadastros.Application.csproj" />
+    <ProjectReference Include="..\PetShop.Procedimento.Data\PetShop.Procedimento.Data.csproj" />
+    <ProjectReference Include="..\PetShop.Procedimento.EmailProviderMok\PetShop.Procedimento.EmailProviderMok.csproj" />
+    <ProjectReference Include="..\PetShop.Servicos.Domain\PetShop.Servicos.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
