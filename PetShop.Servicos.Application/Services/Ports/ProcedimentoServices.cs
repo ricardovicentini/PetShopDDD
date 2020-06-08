@@ -92,13 +92,6 @@ namespace PetShop.Servicos.Application.Services.Ports
             await _repository.UnityOfWork.Commit();
             await _mediator.Publish(new ProcedimentoAgendadoEvent(procedimento));
 
-            
-            
-
-            
-
-                
-
         }
 
         public Task Cancelar(Guid id)
